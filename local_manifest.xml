@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 		
  <!-- Device Trees -->
- <project path="device/realme/RMX1901" name="Shravan55555/device_realme_RMX1901_" remote="ghub" revision="octavi" />
+ <project path="device/realme/RMX1901" name="Shravan55555/device_realme_RMX1901_" remote="ghub" revision="rise" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
