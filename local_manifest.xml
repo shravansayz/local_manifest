@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote  name="ghub"
+        <remote  name="shravansayz"
                 fetch="https://github.com" />
-		
+	
+	<remote  name="rise"	
+                fetch="https://github.com/RisingTechOSS"
+	        revision="thirteen"
+	        review="" />
+
  <!-- rm pkg -->
  <remove-project name="RisingTechOSS/android_frameworks_base" />		
  
  <!-- Device Trees -->
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="rise" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="shravansayz" revision="rise" />
 	
  <!-- Vendor Trees -->
- <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="shravansayz" revision="13" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
+ <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="shravansayz" revision="x.337_ksu" />
 
  <!-- Frameworks -->
- <project path="frameworks/base" name="shravansayz/android_frameworks_base" remote="ghub" revision="thirteen" />
+ <project path="frameworks/base" name="shravansayz/android_frameworks_base" remote="shravansayz" revision="thirteen" />
  </manifest>
