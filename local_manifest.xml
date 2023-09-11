@@ -4,10 +4,8 @@
                 fetch="https://github.com" />
 	
 	<remote  name="rise"	
-                fetch="https://github.com/RisingTechOSS"
-	        revision="thirteen"
-	        review="" />
-
+                fetch="https://github.com/RisingTechOSS" />
+	      
  <!-- rm pkg -->
  <remove-project name="RisingTechOSS/android_frameworks_base" />		
  
