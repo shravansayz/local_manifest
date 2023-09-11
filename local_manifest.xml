@@ -3,6 +3,12 @@
         <remote  name="ghub"
                 fetch="https://github.com" />
 		
+ <!-- rm pkg -->
+ <remove-project name="RisingTechOSS/android_frameworks_base" />	
+	
+ <!-- Frameworks -->
+ <project path="frameworks/base" name="android_frameworks_base" remote="ghub" />	
+ 
  <!-- Device Trees -->
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="rise" />
 	
