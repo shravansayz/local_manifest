@@ -4,10 +4,7 @@
                 fetch="https://github.com" />
 		
  <!-- rm pkg -->
- <remove-project name="RisingTechOSS/android_frameworks_base" />	
-	
- <!-- Frameworks -->
- <project path="frameworks/base" name="android_frameworks_base" remote="ghub" />	
+ <remove-project name="RisingTechOSS/android_frameworks_base" />		
  
  <!-- Device Trees -->
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="rise" />
@@ -17,4 +14,7 @@
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
+
+ <!-- Frameworks -->
+ <project path="frameworks/base" name="shravansayz/android_frameworks_base" remote="ghub" revision="thirteen" />
  </manifest>
