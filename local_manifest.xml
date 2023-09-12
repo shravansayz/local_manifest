@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote  name="ghub"
-                fetch="https://github.com />
-	      		
+                fetch="https://github.com" />
  
-<!-- Device Trees -->
-<project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
+<!-- Device Trees --> 
+  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
 	
-<!-- Vendor Trees -->
-<project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
 	
-<!-- Kernel Trees-->
-<project path="kernel/realme/RMX1901" name="H1mJT/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
-</manifest>
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/RMX1901" name="H1mJT/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
+
+ </manifest>
