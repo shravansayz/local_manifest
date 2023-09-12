@@ -3,11 +3,8 @@
         <remote  name="shravansayz"
                 fetch="https://github.com" />
 	
-	<remote  name="thirteen"	
-                fetch="https://github.com/RisingTechOSS" />
 	      
- <!-- rm pkg -->
- <remove-project name="RisingTechOSS/android_frameworks_base" />		
+ <!-- rm pkg -->		
  
  <!-- Device Trees -->
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="shravansayz" revision="octavi" />
@@ -22,5 +19,4 @@
  <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7"/>
 	
  <!-- Frameworks -->
- <project path="frameworks/base" name="shravansayz/android_frameworks_base" remote="shravansayz" revision="thirteen" />
  </manifest>
