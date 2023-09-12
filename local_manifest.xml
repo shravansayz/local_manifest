@@ -18,6 +18,9 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="shravansayz" revision="x.337_ksu" />
 
+  <!-- KSU -->
+ <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7"/>
+	
  <!-- Frameworks -->
  <project path="frameworks/base" name="shravansayz/android_frameworks_base" remote="shravansayz" revision="thirteen" />
  </manifest>
