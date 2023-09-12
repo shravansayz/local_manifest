@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote  name="shravansayz"
-                fetch="https://github.com" />
-	
+                fetch="https://github.com"
+	        revision="x.337_ksu" />
 	      
  <!-- rm pkg -->		
  
