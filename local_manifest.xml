@@ -2,8 +2,7 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com />
-	      
- <!-- rm pkg -->		
+	      		
  
  <!-- Device Trees -->
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
@@ -14,8 +13,6 @@
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
 
-  <!-- KSU -->
+ <!-- KSU -->
  <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7" />
-	
- <!-- Frameworks -->
  </manifest>
