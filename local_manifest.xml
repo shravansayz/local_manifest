@@ -2,14 +2,20 @@
 <manifest>
         <remote  name="ghub"
                 fetch="https://github.com" />
- 
-<!-- Device Trees --> 
-  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
+        
+	<remote  name="ghub"
+		fetch="https://github.com/Octavi-Staging" />
+	
+ <!-- Device Trees --> 
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
 	
  <!-- Kernel Trees-->
  <project path="kernel/realme/RMX1901" name="H1mJT/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
-
+ 
+ <!-- Framework -->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="thirteen" />
  </manifest>
