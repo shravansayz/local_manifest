@@ -3,7 +3,7 @@
         <remote  name="ghub"
                 fetch="https://github.com" />
         
-	<remote  name="ghub"
+	<remote  name="staging"
 		fetch="https://github.com/Octavi-Staging" />
 	
  <!-- Device Trees --> 
