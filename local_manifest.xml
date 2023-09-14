@@ -14,6 +14,6 @@
 
  <!-- Framework -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="thirteen" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="pyro-next" />
 
  </manifest>
