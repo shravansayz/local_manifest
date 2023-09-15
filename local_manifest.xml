@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote  name="ghub"
-                fetch="https://github.com />
-	      
- <!-- rm pkg -->		
+                fetch="https://github.com" />
  
- <!-- Device Trees -->
+ <!-- Device Trees --> 
  <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="octavi" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337_ksu" />
+ <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
 
-  <!-- KSU -->
- <project path="kernel/realme/RMX1901/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7" />
-	
- <!-- Frameworks -->
+ <!-- Framework -->
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="thirteen" />
+
  </manifest>
