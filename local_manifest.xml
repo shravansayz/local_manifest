@@ -4,16 +4,16 @@
                 fetch="https://github.com" />
  
  <!-- Device Trees --> 
- <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="spark" />
+ <project path="device/realme/RMX1901" name="shravansayz/device_realme_RMX1901" remote="ghub" revision="voltage" />
 	
  <!-- Vendor Trees -->
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="13" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901" remote="ghub" revision="x.337" />
+ <project path="kernel/realme/RMX1901" name="shravansayz/kernel_realme_RMX1901_T" remote="ghub" revision="x.337" />
 
  <!-- Framework -->
  <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="pyro-next" />
+ <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="13" />
 
  </manifest>
