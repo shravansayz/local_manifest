@@ -14,6 +14,10 @@
 
  <!-- Framework -->
  <remove-project name="frameworks_base" />
+ <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+ <remove-project name="packages_apps_Fireworks" />
  <project path="frameworks/base" name="shravansayz/frameworks_base" remote="ghub" revision="pyro-next" />
+ <project path="frameworks/opt/telephony" name="shravansayz/spark_frameworks_opt_telephony" remote="ghub" revision="pyro-next" />
+ <project path="packages/apps/Fireworks" name="shravansayz/spark_packages_apps_Fireworks" remote="ghub" revision="pyro-next" />
 
  </manifest>
