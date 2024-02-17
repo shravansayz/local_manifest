@@ -12,6 +12,6 @@
 
         <project path="device/realme/RMX1901" name="android_device_realme_RMX1901_A14" remote="shravansayz" revision="rise" />
         <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901_A14" remote="shravansayz" revision="14" />
-        <project path="kernel/realme/RMX1901" name="kernel_realme_RMX1901_A14" remote="shravansayz" revision="14-ksu"  />
+        <project path="kernel/realme/RMX1901" name="kernel_realme_RMX1901_A14" remote="shravansayz" revision="14-ksu" />
         
 </manifest>
